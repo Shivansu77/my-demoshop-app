@@ -1,14 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
-import ItemDate from './components/Item';
+
 function App() {
   return (
-    <div>
-      <ItemDate date="2025-07-08"/>
-      <ItemDate date="2025-07-09"/>
-      <ItemDate date="2025-07-10"/> 
+    <div className="App">
+      <div className="App-header">
+        <h1>Welcome to ReactFolio</h1>
+        <p>Your amazing React application is now running!</p>
+        <p>✨ Hot reloading is working perfectly ✨</p>
+        
+        <div className="card">
+          <h2>Getting Started</h2>
+          <p>This is a beautiful React app with modern CSS styling.</p>
+          <button className="button" onClick={() => alert('Button clicked!')}>
+            Click Me!
+          </button>
+        </div>
+        
+        <div className="card">
+          <h2>Features</h2>
+          <p>✅ Modern gradient background</p>
+          <p>✅ Glassmorphism design</p>
+          <p>✅ Responsive layout</p>
+          <p>✅ Smooth animations</p>
+        </div>
+      </div>
     </div>
-
   );
 }
 

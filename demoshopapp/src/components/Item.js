@@ -1,16 +1,9 @@
 import './Item.css';
-function ItemDate(props){
-    const date = props.date instanceof Date ? props.date : new Date();
-    const month = date.toLocaleString('en-US', {month: 'long'});
-    const day = date.toLocaleString('en-US', {day: '2-digit'});
-    const year = date.getFullYear();
-
+function ItemDate(){
     return (
-        <header className="item-date-card">
+        <header>
             <h1>Item Date</h1>
-            <p>{month}</p>
-            <p>{day}</p>
-            <p>{year}</p>
+            <p>This is the item date component ha ha ha.</p>
         </header>
     )
 }
