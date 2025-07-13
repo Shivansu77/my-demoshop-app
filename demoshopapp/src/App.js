@@ -18,8 +18,8 @@ function App() {
         
         <div className="card">
           <h2>Features</h2>
-          <p>✅ Modern gradient background</p>
-          <p>✅ Glassmorphism design</p>
+          <p>✅ Modern gradient1 background</p>
+          <p>✅ Glass morphism design</p>
           <p>✅ Responsive layout</p>
           <p>✅ Smooth animations</p>
         </div>
